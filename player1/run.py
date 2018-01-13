@@ -6,29 +6,6 @@ import os
 
 LOW_WORKER_THRESHOLD = 10
 
-# localDir = os.getcwd()
-# print(localDir)
-# #find the scaffold directory
-# while os.path.basename(localDir) != 'bc18-scaffold':
-#     localDir = os.path.dirname(localDir)
-# #verify the log directory exists, if not make it
-# logDir = os.path.join(localDir,'logs')
-# if not os.path.isdir(logDir):
-#     os.mkdir(logDir)
-# #get the next log number
-# logIndex = 1
-# filenameTemplate = 'matchLog_{:03d}.txt'
-# logName = filenameTemplate.format(logIndex)
-# logPath = os.path.join(logDir,logName)
-# while(os.path.isfile(logPath)):
-#     logIndex += 1
-#     logName = filenameTemplate.format(logIndex)
-#     logPath = os.path.join(logDir,logName)
-# with open(logPath,'a+') as fout:
-#     #if [-w file]; then echo "writeable"; fi
-#     os.system('if [ -w file ]; then echo "writeable"; fi')
-#     os.system('chmod a+w ' + logPath)
-#     os.system('if [ -w file ]; then echo "writeable2"; fi')
 print("pystarting")
 
 # A GameController is the main type that you talk to the game with.
@@ -50,7 +27,7 @@ gc.queue_research(bc.UnitType.Worker)
 gc.queue_research(bc.UnitType.Knight)
 
 my_team = gc.team()
-print('roundNum,karbonite,numFactories,numWorkers,numKnights')
+print('$START_LOGGING\nroundNum,karbonite,numFactories,numWorkers,numKnights')
 while True:
     try:
         allMyUnits = gc.my_units()
@@ -185,13 +162,12 @@ while True:
             if not meleed and closestEnemy[1] != None and gc.can_attack(knight.id,closestEnemy[0].id) and gc.is_attack_ready(knight.id):
                 gc.attack(knight.id,closestEnemy[0].id)
 
-        print(str(gc.round()) + ',\t')
-        print(str(gc.karbonite()) + ',\t')
-        print(str(len(factories)) + ',\t')
-        print(str(len(workers)) + ',\t')
-        print(str(len(knights)) + ',\t')
-        if True: #if team == mars
-            print('\n')
+        print(gc.round(), end=',')
+        print(gc.karbonite(), end=',')
+        print(len(factories), end=',')
+        print(len(workers), end=',')
+        print(len(knights), end='')
+        print('\n')
     except Exception as e:
         print('Error:', e)
         # use this to show where the error was

@@ -6,2071 +6,858 @@ Running game server on socket unix:///tmp/battlecode-4
 running game
 starting server /tmp/battlecode-4
 [earth:red] Player connecting to unix:///tmp/battlecode-4
-[mars:red] Player connecting to unix:///tmp/battlecode-4
+[mars:red][earth:blue] Player connecting to unix:///tmp/battlecode-4
+ Player connecting to unix:///tmp/battlecode-4
 [mars:blue] Player connecting to unix:///tmp/battlecode-4
-[earth:blue] Player connecting to unix:///tmp/battlecode-4
 [earth:red] Successfully connected to the manager!
 [earth:blue] Successfully connected to the manager!
 [mars:red] Successfully connected to the manager!
 [mars:blue] Successfully connected to the manager!
-[earth:red] /home/paul/code/git/battlecode/bc18-scaffold/working_dir/Y7AE0vpAd3mUbrCzrJmA
+[earth:red] /home/paul/code/git/battlecode/bc18-scaffold/working_dir/ckBPxsZqplAGesw5qZU4
 [earth:red] pystarting
 [earth:red] pystarted
 [earth:red] pyround: 1
 [earth:blue] pystarting
 [earth:blue] pystarted
+[earth:blue] $START_LOGGING
 [earth:blue] roundNum,karbonite,numFactories,numWorkers,numKnights
-[earth:blue] 1,	
-[earth:blue] 88,	
-[earth:blue] 0,	
-[earth:blue] 1,	
-[earth:blue] 0,	
+[earth:blue] 1,88,0,1,0
 [earth:blue] 
-[earth:blue] 
-[mars:red] /home/paul/code/git/battlecode/bc18-scaffold/working_dir/PgJomDGpWZE1RXnDqrob
+[mars:red] /home/paul/code/git/battlecode/bc18-scaffold/working_dir/vozfXOB11A0GoSqaNvCB
 [mars:red] pystarting
 [mars:red] pystarted
 [mars:red] pyround: 1
 [mars:blue] pystarting
 [mars:blue] pystarted
+[mars:blue] $START_LOGGING
 [mars:blue] roundNum,karbonite,numFactories,numWorkers,numKnights
-[mars:blue] 1,	
-[mars:blue] 88,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 1,88,0,0,0
 [mars:blue] 
 [earth:red] pyround: 2
-[earth:blue] 2,	
-[earth:blue] 87,	
-[earth:blue] 0,	
-[earth:blue] 2,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 2,87,0,2,0
 [earth:blue] 
 [mars:red] pyround: 2
-[mars:blue] 2,	
-[mars:blue] 87,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 2,87,0,0,0
 [mars:blue] 
 [earth:red] pyround: 3
 [earth:red] built a factory!
-[earth:blue] 3,	
-[earth:blue] 87,	
-[earth:blue] 0,	
-[earth:blue] 3,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 3,87,0,3,0
 [earth:blue] 
 [mars:red] pyround: 3
-[mars:blue] 3,	
-[mars:blue] 87,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 3,87,0,0,0
 [mars:blue] 
 [earth:red] pyround: 4
 [earth:red] built a factory!
-[earth:blue] 4,	
-[earth:blue] 92,	
-[earth:blue] 0,	
-[earth:blue] 4,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 4,92,0,4,0
 [earth:blue] 
 [mars:red] pyround: 4
-[mars:blue] 4,	
-[mars:blue] 92,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 4,92,0,0,0
 [mars:blue] 
 [earth:red] pyround: 5
 [earth:red] built a factory!
-[earth:blue] 5,	
-[earth:blue] 98,	
-[earth:blue] 0,	
-[earth:blue] 5,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 5,98,0,5,0
 [earth:blue] 
 [mars:red] pyround: 5
-[mars:blue] 5,	
-[mars:blue] 98,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 5,98,0,0,0
 [mars:blue] 
 [earth:red] pyround: 6
 [earth:red] built a factory!
-[earth:blue] 6,	
-[earth:blue] 105,	
-[earth:blue] 0,	
-[earth:blue] 6,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 6,105,0,6,0
 [earth:blue] 
 [mars:red] pyround: 6
-[mars:blue] 6,	
-[mars:blue] 105,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 6,105,0,0,0
 [mars:blue] 
 [earth:red] pyround: 7
 [earth:red] built a factory!
-[earth:blue] 7,	
-[earth:blue] 117,	
-[earth:blue] 0,	
-[earth:blue] 7,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 7,117,0,7,0
 [earth:blue] 
 [mars:red] pyround: 7
-[mars:blue] 7,	
-[mars:blue] 117,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 7,117,0,0,0
 [mars:blue] 
 [earth:red] pyround: 8
-[earth:blue] 8,	
-[earth:blue] 130,	
-[earth:blue] 0,	
-[earth:blue] 8,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 8,130,0,8,0
 [earth:blue] 
 [mars:red] pyround: 8
-[mars:blue] 8,	
-[mars:blue] 130,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 8,130,0,0,0
 [mars:blue] 
 [earth:red] pyround: 9
-[earth:blue] 9,	
-[earth:blue] 145,	
-[earth:blue] 0,	
-[earth:blue] 9,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 9,145,0,9,0
 [earth:blue] 
 [mars:red] pyround: 9
-[mars:blue] 9,	
-[mars:blue] 145,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 9,145,0,0,0
 [mars:blue] 
 [earth:red] pyround: 10
-[earth:blue] 10,	
-[earth:blue] 60,	
-[earth:blue] 0,	
-[earth:blue] 10,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 10,60,0,10,0
 [earth:blue] 
 [mars:red] pyround: 10
-[mars:blue] 10,	
-[mars:blue] 60,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 10,60,0,0,0
 [mars:blue] 
 [earth:red] pyround: 11
-[earth:blue] 11,	
-[earth:blue] 77,	
-[earth:blue] 1,	
-[earth:blue] 11,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 11,77,1,11,0
 [earth:blue] 
 [mars:red] pyround: 11
-[mars:blue] 11,	
-[mars:blue] 77,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 11,77,0,0,0
 [mars:blue] 
 [earth:red] pyround: 12
 [earth:red] built a factory!
-[earth:blue] 12,	
-[earth:blue] 92,	
-[earth:blue] 1,	
-[earth:blue] 12,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 12,92,1,12,0
 [earth:blue] 
 [mars:red] pyround: 12
-[mars:blue] 12,	
-[mars:blue] 92,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 12,92,0,0,0
 [mars:blue] 
 [earth:red] pyround: 13
 [earth:red] built a factory!
-[earth:blue] 13,	
-[earth:blue] 22,	
-[earth:blue] 1,	
-[earth:blue] 13,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 13,22,1,13,0
 [earth:blue] 
 [mars:red] pyround: 13
-[mars:blue] 13,	
-[mars:blue] 22,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 13,22,0,0,0
 [mars:blue] 
 [earth:red] pyround: 14
-[earth:blue] 14,	
-[earth:blue] 37,	
-[earth:blue] 2,	
-[earth:blue] 13,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 14,37,2,13,0
 [earth:blue] 
 [mars:red] pyround: 14
-[mars:blue] 14,	
-[mars:blue] 37,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 14,37,0,0,0
 [mars:blue] 
 [earth:red] pyround: 15
-[earth:blue] 15,	
-[earth:blue] 55,	
-[earth:blue] 2,	
-[earth:blue] 14,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 15,55,2,14,0
 [earth:blue] 
 [mars:red] pyround: 15
-[mars:blue] 15,	
-[mars:blue] 55,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 15,55,0,0,0
 [mars:blue] 
 [earth:red] pyround: 16
 [earth:red] built a factory!
-[earth:blue] 16,	
-[earth:blue] 75,	
-[earth:blue] 2,	
-[earth:blue] 15,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 16,75,2,15,0
 [earth:blue] 
 [mars:red] pyround: 16
-[mars:blue] 16,	
-[mars:blue] 75,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 16,75,0,0,0
 [mars:blue] 
 [earth:red] pyround: 17
 [earth:red] built a factory!
-[earth:blue] 17,	
-[earth:blue] 91,	
-[earth:blue] 2,	
-[earth:blue] 16,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 17,91,2,16,0
 [earth:blue] 
 [mars:red] pyround: 17
-[mars:blue] 17,	
-[mars:blue] 91,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 17,91,0,0,0
 [mars:blue] 
 [earth:red] pyround: 18
 [earth:red] built a factory!
-[earth:blue] 18,	
-[earth:blue] 7,	
-[earth:blue] 2,	
-[earth:blue] 17,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 18,7,2,17,0
 [earth:blue] 
 [mars:red] pyround: 18
-[mars:blue] 18,	
-[mars:blue] 7,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 18,7,0,0,0
 [mars:blue] 
 [earth:red] pyround: 19
 [earth:red] built a factory!
-[earth:blue] 19,	
-[earth:blue] 32,	
-[earth:blue] 3,	
-[earth:blue] 18,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 19,32,3,18,0
 [earth:blue] 
 [mars:red] pyround: 19
-[mars:blue] 19,	
-[mars:blue] 32,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 19,32,0,0,0
 [mars:blue] 
 [earth:red] pyround: 20
 [earth:red] built a factory!
-[earth:blue] 20,	
-[earth:blue] 52,	
-[earth:blue] 3,	
-[earth:blue] 18,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 20,52,3,18,0
 [earth:blue] 
 [mars:red] pyround: 20
-[mars:blue] 20,	
-[mars:blue] 52,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 20,52,0,0,0
 [mars:blue] 
 [earth:red] pyround: 21
 [earth:red] built a factory!
-[earth:blue] 21,	
-[earth:blue] 70,	
-[earth:blue] 3,	
-[earth:blue] 18,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 21,70,3,18,0
 [earth:blue] 
 [mars:red] pyround: 21
-[mars:blue] 21,	
-[mars:blue] 70,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 21,70,0,0,0
 [mars:blue] 
 [earth:red] pyround: 22
 [earth:red] built a factory!
-[earth:blue] 22,	
-[earth:blue] 84,	
-[earth:blue] 3,	
-[earth:blue] 18,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 22,84,3,18,0
 [earth:blue] 
 [mars:red] pyround: 22
-[mars:blue] 22,	
-[mars:blue] 84,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 22,84,0,0,0
 [mars:blue] 
 [earth:red] pyround: 23
 [earth:red] built a factory!
-[earth:blue] 23,	
-[earth:blue] 93,	
-[earth:blue] 3,	
-[earth:blue] 18,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 23,93,3,18,0
 [earth:blue] 
 [mars:red] pyround: 23
-[mars:blue] 23,	
-[mars:blue] 93,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 23,93,0,0,0
 [mars:blue] 
 [earth:red] pyround: 24
 [earth:red] built a factory!
-[earth:blue] 24,	
-[earth:blue] 1,	
-[earth:blue] 3,	
-[earth:blue] 18,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 24,1,3,18,0
 [earth:blue] 
 [mars:red] pyround: 24
-[mars:blue] 24,	
-[mars:blue] 1,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 24,1,0,0,0
 [mars:blue] 
 [earth:red] pyround: 25
 [earth:red] built a factory!
-[earth:blue] 25,	
-[earth:blue] 11,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 25,11,4,18,0
 [earth:blue] 
 [mars:red] pyround: 25
-[mars:blue] 25,	
-[mars:blue] 11,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 25,11,0,0,0
 [mars:blue] 
 [earth:red] pyround: 26
 [earth:red] built a factory!
-[earth:blue] 26,	
-[earth:blue] 21,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 26,21,4,18,0
 [earth:blue] 
 [mars:red] pyround: 26
-[mars:blue] 26,	
-[mars:blue] 21,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 26,21,0,0,0
 [mars:blue] 
 [earth:red] pyround: 27
-[earth:blue] 27,	
-[earth:blue] 11,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 27,11,4,18,0
 [earth:blue] 
 [mars:red] pyround: 27
-[mars:blue] 27,	
-[mars:blue] 11,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 27,11,0,0,0
 [mars:blue] 
 [earth:red] pyround: 28
 [earth:red] built a factory!
-[earth:blue] 28,	
-[earth:blue] 21,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 28,21,4,18,0
 [earth:blue] 
 [mars:red] pyround: 28
-[mars:blue] 28,	
-[mars:blue] 21,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 28,21,0,0,0
 [mars:blue] 
 [earth:red] pyround: 29
 [earth:red] built a factory!
-[earth:blue] 29,	
-[earth:blue] 31,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 29,31,4,18,0
 [earth:blue] 
 [mars:red] pyround: 29
-[mars:blue] 29,	
-[mars:blue] 31,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 29,31,0,0,0
 [mars:blue] 
 [earth:red] pyround: 30
 [earth:red] built a factory!
-[earth:blue] 30,	
-[earth:blue] 41,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 30,41,4,18,0
 [earth:blue] 
 [mars:red] pyround: 30
-[mars:blue] 30,	
-[mars:blue] 41,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 30,41,0,0,0
 [mars:blue] 
 [earth:red] pyround: 31
 [earth:red] built a factory!
-[earth:blue] 31,	
-[earth:blue] 30,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 0,	
-[earth:blue] 
+[earth:blue] 31,30,4,18,0
 [earth:blue] 
 [mars:red] pyround: 31
-[mars:blue] 31,	
-[mars:blue] 30,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 31,30,0,0,0
 [mars:blue] 
 [earth:red] pyround: 32
-[earth:blue] 32,	
-[earth:blue] 20,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 1,	
-[earth:blue] 
+[earth:blue] 32,20,4,18,1
 [earth:blue] 
 [mars:red] pyround: 32
-[mars:blue] 32,	
-[mars:blue] 20,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 32,20,0,0,0
 [mars:blue] 
 [earth:red] pyround: 33
-[earth:blue] 33,	
-[earth:blue] 30,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 1,	
-[earth:blue] 
+[earth:blue] 33,30,4,18,1
 [earth:blue] 
 [mars:red] pyround: 33
-[mars:blue] 33,	
-[mars:blue] 30,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 33,30,0,0,0
 [mars:blue] 
 [earth:red] pyround: 34
-[earth:blue] 34,	
-[earth:blue] 40,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 1,	
-[earth:blue] 
+[earth:blue] 34,40,4,18,1
 [earth:blue] 
 [mars:red] pyround: 34
-[mars:blue] 34,	
-[mars:blue] 40,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 34,40,0,0,0
 [mars:blue] 
 [earth:red] pyround: 35
 [earth:red] built a factory!
-[earth:blue] 35,	
-[earth:blue] 49,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 1,	
-[earth:blue] 
+[earth:blue] 35,49,4,18,1
 [earth:blue] 
 [mars:red] pyround: 35
-[mars:blue] 35,	
-[mars:blue] 49,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 35,49,0,0,0
 [mars:blue] 
 [earth:red] pyround: 36
 [earth:red] built a factory!
-[earth:blue] 36,	
-[earth:blue] 38,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 2,	
-[earth:blue] 
+[earth:blue] 36,38,4,18,2
 [earth:blue] 
 [mars:red] pyround: 36
-[mars:blue] 36,	
-[mars:blue] 38,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 36,38,0,0,0
 [mars:blue] 
 [earth:red] pyround: 37
 [earth:red] built a factory!
-[earth:blue] 37,	
-[earth:blue] 28,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 3,	
-[earth:blue] 
+[earth:blue] 37,28,4,18,3
 [earth:blue] 
 [mars:red] pyround: 37
-[mars:blue] 37,	
-[mars:blue] 28,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 37,28,0,0,0
 [mars:blue] 
 [earth:red] pyround: 38
 [earth:red] built a factory!
-[earth:blue] 38,	
-[earth:blue] 38,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 3,	
-[earth:blue] 
+[earth:blue] 38,38,4,18,3
 [earth:blue] 
 [mars:red] pyround: 38
-[mars:blue] 38,	
-[mars:blue] 38,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 38,38,0,0,0
 [mars:blue] 
 [earth:red] pyround: 39
 [earth:red] built a factory!
-[earth:blue] 39,	
-[earth:blue] 48,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 3,	
-[earth:blue] 
+[earth:blue] 39,48,4,18,3
 [earth:blue] 
 [mars:red] pyround: 39
-[mars:blue] 39,	
-[mars:blue] 48,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 39,48,0,0,0
 [mars:blue] 
 [earth:red] pyround: 40
 [earth:red] built a factory!
-[earth:blue] 40,	
-[earth:blue] 57,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 3,	
-[earth:blue] 
+[earth:blue] 40,57,4,18,3
 [earth:blue] 
 [mars:red] pyround: 40
-[mars:blue] 40,	
-[mars:blue] 57,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 40,57,0,0,0
 [mars:blue] 
 [earth:red] pyround: 41
 [earth:red] built a factory!
-[earth:blue] 41,	
-[earth:blue] 46,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 4,	
-[earth:blue] 
+[earth:blue] 41,46,4,18,4
 [earth:blue] 
 [mars:red] pyround: 41
-[mars:blue] 41,	
-[mars:blue] 46,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 41,46,0,0,0
 [mars:blue] 
 [earth:red] pyround: 42
 [earth:red] built a factory!
-[earth:blue] 42,	
-[earth:blue] 35,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 5,	
-[earth:blue] 
+[earth:blue] 42,35,4,18,5
 [earth:blue] 
 [mars:red] pyround: 42
-[mars:blue] 42,	
-[mars:blue] 35,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 42,35,0,0,0
 [mars:blue] 
 [earth:red] pyround: 43
 [earth:red] built a factory!
-[earth:blue] 43,	
-[earth:blue] 45,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 5,	
-[earth:blue] 
+[earth:blue] 43,45,4,18,5
 [earth:blue] 
 [mars:red] pyround: 43
-[mars:blue] 43,	
-[mars:blue] 45,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 43,45,0,0,0
 [mars:blue] 
 [earth:red] pyround: 44
 [earth:red] built a factory!
-[earth:blue] 44,	
-[earth:blue] 54,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 5,	
-[earth:blue] 
+[earth:blue] 44,54,4,18,5
 [earth:blue] 
 [mars:red] pyround: 44
-[mars:blue] 44,	
-[mars:blue] 54,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 44,54,0,0,0
 [mars:blue] 
 [earth:red] pyround: 45
 [earth:red] built a factory!
-[earth:blue] 45,	
-[earth:blue] 63,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 5,	
-[earth:blue] 
+[earth:blue] 45,63,4,18,5
 [earth:blue] 
 [mars:red] pyround: 45
-[mars:blue] 45,	
-[mars:blue] 63,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 45,63,0,0,0
 [mars:blue] 
 [earth:red] pyround: 46
 [earth:red] built a factory!
-[earth:blue] 46,	
-[earth:blue] 52,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 6,	
-[earth:blue] 
+[earth:blue] 46,52,4,18,6
 [earth:blue] 
 [mars:red] pyround: 46
-[mars:blue] 46,	
-[mars:blue] 52,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 46,52,0,0,0
 [mars:blue] 
 [earth:red] pyround: 47
 [earth:red] built a factory!
-[earth:blue] 47,	
-[earth:blue] 21,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 7,	
-[earth:blue] 
+[earth:blue] 47,21,4,18,7
 [earth:blue] 
 [mars:red] pyround: 47
-[mars:blue] 47,	
-[mars:blue] 21,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 47,21,0,0,0
 [mars:blue] 
 [earth:red] pyround: 48
 [earth:red] built a factory!
-[earth:blue] 48,	
-[earth:blue] 31,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 7,	
-[earth:blue] 
+[earth:blue] 48,31,4,18,7
 [earth:blue] 
 [mars:red] pyround: 48
-[mars:blue] 48,	
-[mars:blue] 31,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 48,31,0,0,0
 [mars:blue] 
 [earth:red] pyround: 49
 [earth:red] built a factory!
-[earth:blue] 49,	
-[earth:blue] 41,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 7,	
-[earth:blue] 
+[earth:blue] 49,41,4,18,7
 [earth:blue] 
 [mars:red] pyround: 49
-[mars:blue] 49,	
-[mars:blue] 41,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 49,41,0,0,0
 [mars:blue] 
 [earth:red] pyround: 50
 [earth:red] built a factory!
-[earth:blue] 50,	
-[earth:blue] 50,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 7,	
-[earth:blue] 
+[earth:blue] 50,50,4,18,7
 [earth:blue] 
 [mars:red] pyround: 50
-[mars:blue] 50,	
-[mars:blue] 50,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 50,50,0,0,0
 [mars:blue] 
 [earth:red] pyround: 51
-[earth:blue] 51,	
-[earth:blue] 24,	
-[earth:blue] 4,	
-[earth:blue] 18,	
-[earth:blue] 8,	
-[earth:blue] 
+[earth:blue] 51,24,4,18,8
 [earth:blue] 
 [mars:red] pyround: 51
-[mars:blue] 51,	
-[mars:blue] 24,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 51,24,0,0,0
 [mars:blue] 
 [earth:red] pyround: 52
-[earth:blue] 52,	
-[earth:blue] 2,	
-[earth:blue] 4,	
-[earth:blue] 19,	
-[earth:blue] 10,	
-[earth:blue] 
+[earth:blue] 52,2,4,19,10
 [earth:blue] 
 [mars:red] pyround: 52
-[mars:blue] 52,	
-[mars:blue] 2,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 52,2,0,0,0
 [mars:blue] 
 [earth:red] pyround: 53
 [earth:red] built a factory!
-[earth:blue] 53,	
-[earth:blue] 3,	
-[earth:blue] 4,	
-[earth:blue] 20,	
-[earth:blue] 10,	
-[earth:blue] 
+[earth:blue] 53,3,4,20,10
 [earth:blue] 
 [mars:red] pyround: 53
-[mars:blue] 53,	
-[mars:blue] 3,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 53,3,0,0,0
 [mars:blue] 
 [earth:red] pyround: 54
 [earth:red] built a factory!
-[earth:blue] 54,	
-[earth:blue] 5,	
-[earth:blue] 4,	
-[earth:blue] 21,	
-[earth:blue] 10,	
-[earth:blue] 
+[earth:blue] 54,5,4,21,10
 [earth:blue] 
 [mars:red] pyround: 54
-[mars:blue] 54,	
-[mars:blue] 5,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 54,5,0,0,0
 [mars:blue] 
 [earth:red] pyround: 55
-[earth:blue] 55,	
-[earth:blue] 16,	
-[earth:blue] 4,	
-[earth:blue] 22,	
-[earth:blue] 10,	
-[earth:blue] 
+[earth:blue] 55,16,4,22,10
 [earth:blue] 
 [mars:red] pyround: 55
-[mars:blue] 55,	
-[mars:blue] 16,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 55,16,0,0,0
 [mars:blue] 
 [earth:red] pyround: 56
-[earth:blue] 56,	
-[earth:blue] 9,	
-[earth:blue] 4,	
-[earth:blue] 23,	
-[earth:blue] 11,	
-[earth:blue] 
+[earth:blue] 56,9,4,23,11
 [earth:blue] 
 [mars:red] pyround: 56
-[mars:blue] 56,	
-[mars:blue] 9,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 56,9,0,0,0
 [mars:blue] 
 [earth:red] pyround: 57
 [earth:red] built a factory!
-[earth:blue] 57,	
-[earth:blue] 10,	
-[earth:blue] 4,	
-[earth:blue] 24,	
-[earth:blue] 12,	
-[earth:blue] 
+[earth:blue] 57,10,4,24,12
 [earth:blue] 
 [mars:red] pyround: 57
-[mars:blue] 57,	
-[mars:blue] 10,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 57,10,0,0,0
 [mars:blue] 
 [earth:red] pyround: 58
 [earth:red] built a factory!
-[earth:blue] 58,	
-[earth:blue] 2,	
-[earth:blue] 4,	
-[earth:blue] 26,	
-[earth:blue] 12,	
-[earth:blue] 
+[earth:blue] 58,2,4,26,12
 [earth:blue] 
 [mars:red] pyround: 58
-[mars:blue] 58,	
-[mars:blue] 2,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 58,2,0,0,0
 [mars:blue] 
 [earth:red] pyround: 59
 [earth:red] built a factory!
-[earth:blue] 59,	
-[earth:blue] 14,	
-[earth:blue] 4,	
-[earth:blue] 27,	
-[earth:blue] 12,	
-[earth:blue] 
+[earth:blue] 59,14,4,27,12
 [earth:blue] 
 [mars:red] pyround: 59
-[mars:blue] 59,	
-[mars:blue] 14,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 59,14,0,0,0
 [mars:blue] 
 [earth:red] pyround: 60
 [earth:red] built a factory!
-[earth:blue] 60,	
-[earth:blue] 6,	
-[earth:blue] 4,	
-[earth:blue] 29,	
-[earth:blue] 12,	
-[earth:blue] 
+[earth:blue] 60,6,4,29,12
 [earth:blue] 
 [mars:red] pyround: 60
-[mars:blue] 60,	
-[mars:blue] 6,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 60,6,0,0,0
 [mars:blue] 
 [earth:red] pyround: 61
 [earth:red] built a factory!
-[earth:blue] 61,	
-[earth:blue] 4,	
-[earth:blue] 4,	
-[earth:blue] 31,	
-[earth:blue] 13,	
-[earth:blue] 
+[earth:blue] 61,4,4,31,13
 [earth:blue] 
 [mars:red] pyround: 61
-[mars:blue] 61,	
-[mars:blue] 4,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 61,4,0,0,0
 [mars:blue] 
 [earth:red] pyround: 62
 [earth:red] built a factory!
-[earth:blue] 62,	
-[earth:blue] 18,	
-[earth:blue] 4,	
-[earth:blue] 34,	
-[earth:blue] 13,	
-[earth:blue] 
+[earth:blue] 62,18,4,34,13
 [earth:blue] 
 [mars:red] pyround: 62
-[mars:blue] 62,	
-[mars:blue] 18,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 62,18,0,0,0
 [mars:blue] 
 [earth:red] pyround: 63
 [earth:red] built a factory!
-[earth:blue] 63,	
-[earth:blue] 11,	
-[earth:blue] 4,	
-[earth:blue] 36,	
-[earth:blue] 14,	
-[earth:blue] 
+[earth:blue] 63,11,4,36,14
 [earth:blue] 
 [mars:red] pyround: 63
-[mars:blue] 63,	
-[mars:blue] 11,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 63,11,0,0,0
 [mars:blue] 
 [earth:red] pyround: 64
 [earth:red] built a factory!
-[earth:blue] 64,	
-[earth:blue] 33,	
-[earth:blue] 4,	
-[earth:blue] 38,	
-[earth:blue] 14,	
-[earth:blue] 
+[earth:blue] 64,33,4,38,14
 [earth:blue] 
 [mars:red] pyround: 64
-[mars:blue] 64,	
-[mars:blue] 33,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 64,33,0,0,0
 [mars:blue] 
 [earth:red] pyround: 65
 [earth:red] built a factory!
-[earth:blue] 65,	
-[earth:blue] 46,	
-[earth:blue] 4,	
-[earth:blue] 38,	
-[earth:blue] 15,	
-[earth:blue] 
+[earth:blue] 65,46,4,38,15
 [earth:blue] 
 [mars:red] pyround: 65
-[mars:blue] 65,	
-[mars:blue] 46,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 65,46,0,0,0
 [mars:blue] 
 [earth:red] pyround: 66
 [earth:red] built a factory!
-[earth:blue] 66,	
-[earth:blue] 77,	
-[earth:blue] 4,	
-[earth:blue] 38,	
-[earth:blue] 15,	
-[earth:blue] 
+[earth:blue] 66,77,4,38,15
 [earth:blue] 
 [mars:red] pyround: 66
-[mars:blue] 66,	
-[mars:blue] 77,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 66,77,0,0,0
 [mars:blue] 
 [earth:red] pyround: 67
 [earth:red] built a factory!
-[earth:blue] 67,	
-[earth:blue] 6,	
-[earth:blue] 4,	
-[earth:blue] 38,	
-[earth:blue] 15,	
-[earth:blue] 
+[earth:blue] 67,6,4,38,15
 [earth:blue] 
 [mars:red] pyround: 67
-[mars:blue] 67,	
-[mars:blue] 6,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 67,6,0,0,0
 [mars:blue] 
 [earth:red] pyround: 68
 [earth:red] built a factory!
-[earth:blue] 68,	
-[earth:blue] 38,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 16,	
-[earth:blue] 
+[earth:blue] 68,38,5,38,16
 [earth:blue] 
 [mars:red] pyround: 68
-[mars:blue] 68,	
-[mars:blue] 38,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 68,38,0,0,0
 [mars:blue] 
 [earth:red] pyround: 69
 [earth:red] built a factory!
-[earth:blue] 69,	
-[earth:blue] 21,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 17,	
-[earth:blue] 
+[earth:blue] 69,21,5,38,17
 [earth:blue] 
 [mars:red] pyround: 69
-[mars:blue] 69,	
-[mars:blue] 21,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 69,21,0,0,0
 [mars:blue] 
 [earth:red] pyround: 70
 [earth:red] built a factory!
-[earth:blue] 70,	
-[earth:blue] 21,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 18,	
-[earth:blue] 
+[earth:blue] 70,21,5,38,18
 [earth:blue] 
 [mars:red] pyround: 70
-[mars:blue] 70,	
-[mars:blue] 21,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 70,21,0,0,0
 [mars:blue] 
 [earth:red] pyround: 71
 [earth:red] built a factory!
-[earth:blue] 71,	
-[earth:blue] 36,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 18,	
-[earth:blue] 
+[earth:blue] 71,36,5,38,18
 [earth:blue] 
 [mars:red] pyround: 71
-[mars:blue] 71,	
-[mars:blue] 36,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 71,36,0,0,0
 [mars:blue] 
 [earth:red] pyround: 72
 [earth:red] built a factory!
-[earth:blue] 72,	
-[earth:blue] 52,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 18,	
-[earth:blue] 
+[earth:blue] 72,52,5,38,18
 [earth:blue] 
 [mars:red] pyround: 72
-[mars:blue] 72,	
-[mars:blue] 52,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 72,52,0,0,0
 [mars:blue] 
 [earth:red] pyround: 73
 [earth:red] built a factory!
-[earth:blue] 73,	
-[earth:blue] 73,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 18,	
-[earth:blue] 
+[earth:blue] 73,73,5,38,18
 [earth:blue] 
 [mars:red] pyround: 73
-[mars:blue] 73,	
-[mars:blue] 73,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 73,73,0,0,0
 [mars:blue] 
 [earth:red] pyround: 74
 [earth:red] built a factory!
-[earth:blue] 74,	
-[earth:blue] 52,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 20,	
-[earth:blue] 
+[earth:blue] 74,52,5,38,20
 [earth:blue] 
 [mars:red] pyround: 74
-[mars:blue] 74,	
-[mars:blue] 52,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 74,52,0,0,0
 [mars:blue] 
 [earth:red] pyround: 75
 [earth:red] built a factory!
-[earth:blue] 75,	
-[earth:blue] 48,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 21,	
-[earth:blue] 
+[earth:blue] 75,48,5,38,21
 [earth:blue] 
 [mars:red] pyround: 75
-[mars:blue] 75,	
-[mars:blue] 48,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 75,48,0,0,0
 [mars:blue] 
 [earth:red] pyround: 76
 [earth:red] built a factory!
-[earth:blue] 76,	
-[earth:blue] 59,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 21,	
-[earth:blue] 
+[earth:blue] 76,59,5,38,21
 [earth:blue] 
 [mars:red] pyround: 76
-[mars:blue] 76,	
-[mars:blue] 59,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 76,59,0,0,0
 [mars:blue] 
 [earth:red] pyround: 77
 [earth:red] built a factory!
-[earth:blue] 77,	
-[earth:blue] 68,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 21,	
-[earth:blue] 
+[earth:blue] 77,68,5,38,21
 [earth:blue] 
 [mars:red] pyround: 77
-[mars:blue] 77,	
-[mars:blue] 68,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 77,68,0,0,0
 [mars:blue] 
 [earth:red] pyround: 78
 [earth:red] built a factory!
-[earth:blue] 78,	
-[earth:blue] 77,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 21,	
-[earth:blue] 
+[earth:blue] 78,77,5,38,21
 [earth:blue] 
 [mars:red] pyround: 78
-[mars:blue] 78,	
-[mars:blue] 77,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 78,77,0,0,0
 [mars:blue] 
 [earth:red] pyround: 79
 [earth:red] built a factory!
-[earth:blue] 79,	
-[earth:blue] 46,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 23,	
-[earth:blue] 
+[earth:blue] 79,46,5,38,23
 [earth:blue] 
 [mars:red] pyround: 79
-[mars:blue] 79,	
-[mars:blue] 46,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 79,46,0,0,0
 [mars:blue] 
 [earth:red] pyround: 80
 [earth:red] built a factory!
-[earth:blue] 80,	
-[earth:blue] 35,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 24,	
-[earth:blue] 
+[earth:blue] 80,35,5,38,24
 [earth:blue] 
 [mars:red] pyround: 80
-[mars:blue] 80,	
-[mars:blue] 35,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 80,35,0,0,0
 [mars:blue] 
 [earth:red] pyround: 81
 [earth:red] built a factory!
-[earth:blue] 81,	
-[earth:blue] 45,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 24,	
-[earth:blue] 
+[earth:blue] 81,45,5,38,24
 [earth:blue] 
 [mars:red] pyround: 81
-[mars:blue] 81,	
-[mars:blue] 45,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 81,45,0,0,0
 [mars:blue] 
 [earth:red] pyround: 82
 [earth:red] built a factory!
-[earth:blue] 82,	
-[earth:blue] 54,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 24,	
-[earth:blue] 
+[earth:blue] 82,54,5,38,24
 [earth:blue] 
 [mars:red] pyround: 82
-[mars:blue] 82,	
-[mars:blue] 54,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 82,54,0,0,0
 [mars:blue] 
 [earth:red] pyround: 83
 [earth:red] built a factory!
-[earth:blue] 83,	
-[earth:blue] 63,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 24,	
-[earth:blue] 
+[earth:blue] 83,63,5,38,24
 [earth:blue] 
 [mars:red] pyround: 83
-[mars:blue] 83,	
-[mars:blue] 63,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 83,63,0,0,0
 [mars:blue] 
 [earth:red] pyround: 84
 [earth:red] built a factory!
-[earth:blue] 84,	
-[earth:blue] 32,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 26,	
-[earth:blue] 
+[earth:blue] 84,32,5,38,26
 [earth:blue] 
 [mars:red] pyround: 84
-[mars:blue] 84,	
-[mars:blue] 32,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 84,32,0,0,0
 [mars:blue] 
 [earth:red] pyround: 85
 [earth:red] built a factory!
-[earth:blue] 85,	
-[earth:blue] 22,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 27,	
-[earth:blue] 
+[earth:blue] 85,22,5,38,27
 [earth:blue] 
 [mars:red] pyround: 85
-[mars:blue] 85,	
-[mars:blue] 22,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 85,22,0,0,0
 [mars:blue] 
 [earth:red] pyround: 86
 [earth:red] built a factory!
-[earth:blue] 86,	
-[earth:blue] 12,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 27,	
-[earth:blue] 
+[earth:blue] 86,12,5,38,27
 [earth:blue] 
 [mars:red] pyround: 86
-[mars:blue] 86,	
-[mars:blue] 12,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 86,12,0,0,0
 [mars:blue] 
 [earth:red] pyround: 87
-[earth:blue] 87,	
-[earth:blue] 22,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 27,	
-[earth:blue] 
+[earth:blue] 87,22,5,38,27
 [earth:blue] 
 [mars:red] pyround: 87
-[mars:blue] 87,	
-[mars:blue] 22,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 87,22,0,0,0
 [mars:blue] 
 [earth:red] pyround: 88
 [earth:red] built a factory!
-[earth:blue] 88,	
-[earth:blue] 32,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 27,	
-[earth:blue] 
+[earth:blue] 88,32,5,38,27
 [earth:blue] 
 [mars:red] pyround: 88
-[mars:blue] 88,	
-[mars:blue] 32,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 88,32,0,0,0
 [mars:blue] 
 [earth:red] pyround: 89
 [earth:red] built a factory!
-[earth:blue] 89,	
-[earth:blue] 2,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 29,	
-[earth:blue] 
+[earth:blue] 89,2,5,38,29
 [earth:blue] 
 [mars:red] pyround: 89
-[mars:blue] 89,	
-[mars:blue] 2,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 89,2,0,0,0
 [mars:blue] 
 [earth:red] pyround: 90
 [earth:red] built a factory!
-[earth:blue] 90,	
-[earth:blue] 12,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 30,	
-[earth:blue] 
+[earth:blue] 90,12,5,38,30
 [earth:blue] 
 [mars:red] pyround: 90
-[mars:blue] 90,	
-[mars:blue] 12,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 90,12,0,0,0
 [mars:blue] 
 [earth:red] pyround: 91
 [earth:red] built a factory!
-[earth:blue] 91,	
-[earth:blue] 2,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 31,	
-[earth:blue] 
+[earth:blue] 91,2,5,38,31
 [earth:blue] 
 [mars:red] pyround: 91
-[mars:blue] 91,	
-[mars:blue] 2,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 91,2,0,0,0
 [mars:blue] 
 [earth:red] pyround: 92
 [earth:red] built a factory!
-[earth:blue] 92,	
-[earth:blue] 12,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 31,	
-[earth:blue] 
+[earth:blue] 92,12,5,38,31
 [earth:blue] 
 [mars:red] pyround: 92
-[mars:blue] 92,	
-[mars:blue] 12,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 92,12,0,0,0
 [mars:blue] 
 [earth:red] pyround: 93
 [earth:red] built a factory!
-[earth:blue] 93,	
-[earth:blue] 2,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 31,	
-[earth:blue] 
+[earth:blue] 93,2,5,38,31
 [earth:blue] 
 [mars:red] pyround: 93
-[mars:blue] 93,	
-[mars:blue] 2,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 93,2,0,0,0
 [mars:blue] 
 [earth:red] pyround: 94
 [earth:red] built a factory!
-[earth:blue] 94,	
-[earth:blue] 12,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 33,	
-[earth:blue] 
+[earth:blue] 94,12,5,38,33
 [earth:blue] 
 [mars:red] pyround: 94
-[mars:blue] 94,	
-[mars:blue] 12,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 94,12,0,0,0
 [mars:blue] 
 [earth:red] pyround: 95
 [earth:red] built a factory!
-[earth:blue] 95,	
-[earth:blue] 2,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 33,	
-[earth:blue] 
+[earth:blue] 95,2,5,38,33
 [earth:blue] 
 [mars:red] pyround: 95
-[mars:blue] 95,	
-[mars:blue] 2,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 95,2,0,0,0
 [mars:blue] 
 [earth:red] pyround: 96
 [earth:red] built a factory!
-[earth:blue] 96,	
-[earth:blue] 12,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 34,	
-[earth:blue] 
+[earth:blue] 96,12,5,38,34
 [earth:blue] 
 [mars:red] pyround: 96
-[mars:blue] 96,	
-[mars:blue] 12,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 96,12,0,0,0
 [mars:blue] 
 [earth:red] pyround: 97
 [earth:red] built a factory!
-[earth:blue] 97,	
-[earth:blue] 2,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 34,	
-[earth:blue] 
+[earth:blue] 97,2,5,38,34
 [earth:blue] 
 [mars:red] pyround: 97
-[mars:blue] 97,	
-[mars:blue] 2,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 97,2,0,0,0
 [mars:blue] 
 [earth:red] pyround: 98
-[earth:blue] 98,	
-[earth:blue] 12,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 35,	
-[earth:blue] 
+[earth:blue] 98,12,5,38,35
 [earth:blue] 
 [mars:red] pyround: 98
-[mars:blue] 98,	
-[mars:blue] 12,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 98,12,0,0,0
 [mars:blue] 
 [earth:red] pyround: 99
 [earth:red] built a factory!
-[earth:blue] 99,	
-[earth:blue] 2,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 35,	
-[earth:blue] 
+[earth:blue] 99,2,5,38,35
 [earth:blue] 
 [mars:red] pyround: 99
-[mars:blue] 99,	
-[mars:blue] 2,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 99,2,0,0,0
 [mars:blue] 
 [earth:red] pyround: 100
 [earth:red] built a factory!
-[earth:blue] 100,	
-[earth:blue] 12,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 36,	
-[earth:blue] 
+[earth:blue] 100,12,5,38,36
 [earth:blue] 
 [mars:red] pyround: 100
-[mars:blue] 100,	
-[mars:blue] 12,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 100,12,0,0,0
 [mars:blue] 
 [earth:red] pyround: 101
 [earth:red] built a factory!
-[earth:blue] 101,	
-[earth:blue] 2,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 36,	
-[earth:blue] 
+[earth:blue] 101,2,5,38,36
 [earth:blue] 
 [mars:red] pyround: 101
-[mars:blue] 101,	
-[mars:blue] 2,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 101,2,0,0,0
 [mars:blue] 
 [earth:red] pyround: 102
 [earth:red] built a factory!
-[earth:blue] 102,	
-[earth:blue] 12,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 37,	
-[earth:blue] 
+[earth:blue] 102,12,5,38,37
 [earth:blue] 
 [mars:red] pyround: 102
-[mars:blue] 102,	
-[mars:blue] 12,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 102,12,0,0,0
 [mars:blue] 
 [earth:red] pyround: 103
-[earth:blue] 103,	
-[earth:blue] 2,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 37,	
-[earth:blue] 
+[earth:blue] 103,2,5,38,37
 [earth:blue] 
 [mars:red] pyround: 103
-[mars:blue] 103,	
-[mars:blue] 2,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 103,2,0,0,0
 [mars:blue] 
 [earth:red] pyround: 104
-[earth:blue] 104,	
-[earth:blue] 12,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 38,	
-[earth:blue] 
+[earth:blue] 104,12,5,38,38
 [earth:blue] 
 [mars:red] pyround: 104
-[mars:blue] 104,	
-[mars:blue] 12,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 104,12,0,0,0
 [mars:blue] 
 [earth:red] pyround: 105
-[earth:blue] 105,	
-[earth:blue] 2,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 38,	
-[earth:blue] 
+[earth:blue] 105,2,5,38,38
 [earth:blue] 
 [mars:red] pyround: 105
-[mars:blue] 105,	
-[mars:blue] 2,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 105,2,0,0,0
 [mars:blue] 
 [earth:red] pyround: 106
-[earth:blue] 106,	
-[earth:blue] 12,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 38,	
-[earth:blue] 
+[earth:blue] 106,12,5,38,38
 [earth:blue] 
 [mars:red] pyround: 106
-[mars:blue] 106,	
-[mars:blue] 12,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 106,12,0,0,0
 [mars:blue] 
 [earth:red] pyround: 107
-[earth:blue] 107,	
-[earth:blue] 2,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 38,	
-[earth:blue] 
+[earth:blue] 107,2,5,38,38
 [earth:blue] 
 [mars:red] pyround: 107
-[mars:blue] 107,	
-[mars:blue] 2,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 107,2,0,0,0
 [mars:blue] 
 [earth:red] pyround: 108
-[earth:blue] 108,	
-[earth:blue] 12,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 39,	
-[earth:blue] 
+[earth:blue] 108,12,5,38,39
 [earth:blue] 
 [mars:red] pyround: 108
-[mars:blue] 108,	
-[mars:blue] 12,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 108,12,0,0,0
 [mars:blue] 
 [earth:red] pyround: 109
-[earth:blue] 109,	
-[earth:blue] 2,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 39,	
-[earth:blue] 
+[earth:blue] 109,2,5,38,39
 [earth:blue] 
 [mars:red] pyround: 109
-[mars:blue] 109,	
-[mars:blue] 2,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 109,2,0,0,0
 [mars:blue] 
 [earth:red] pyround: 110
-[earth:blue] 110,	
-[earth:blue] 12,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 40,	
-[earth:blue] 
+[earth:blue] 110,12,5,38,40
 [earth:blue] 
 [mars:red] pyround: 110
-[mars:blue] 110,	
-[mars:blue] 12,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 110,12,0,0,0
 [mars:blue] 
 [earth:red] pyround: 111
-[earth:blue] 111,	
-[earth:blue] 2,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 40,	
-[earth:blue] 
+[earth:blue] 111,2,5,38,40
 [earth:blue] 
 [mars:red] pyround: 111
-[mars:blue] 111,	
-[mars:blue] 2,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 111,2,0,0,0
 [mars:blue] 
 [earth:red] pyround: 112
-[earth:blue] 112,	
-[earth:blue] 12,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 41,	
-[earth:blue] 
+[earth:blue] 112,12,5,38,41
 [earth:blue] 
 [mars:red] pyround: 112
-[mars:blue] 112,	
-[mars:blue] 12,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 112,12,0,0,0
 [mars:blue] 
 [earth:red] pyround: 113
-[earth:blue] 113,	
-[earth:blue] 2,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 41,	
-[earth:blue] 
+[earth:blue] 113,2,5,38,41
 [earth:blue] 
 [mars:red] pyround: 113
-[mars:blue] 113,	
-[mars:blue] 2,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 113,2,0,0,0
 [mars:blue] 
 [earth:red] pyround: 114
-[earth:blue] 114,	
-[earth:blue] 12,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 42,	
-[earth:blue] 
+[earth:blue] 114,12,5,38,42
 [earth:blue] 
 [mars:red] pyround: 114
-[mars:blue] 114,	
-[mars:blue] 12,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 114,12,0,0,0
 [mars:blue] 
 [earth:red] pyround: 115
-[earth:blue] 115,	
-[earth:blue] 2,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 42,	
-[earth:blue] 
+[earth:blue] 115,2,5,38,42
 [earth:blue] 
 [mars:red] pyround: 115
-[mars:blue] 115,	
-[mars:blue] 2,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 115,2,0,0,0
 [mars:blue] 
 [earth:red] pyround: 116
-[earth:blue] 116,	
-[earth:blue] 12,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 43,	
-[earth:blue] 
+[earth:blue] 116,12,5,38,43
 [earth:blue] 
 [mars:red] pyround: 116
-[mars:blue] 116,	
-[mars:blue] 12,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 116,12,0,0,0
 [mars:blue] 
 [earth:red] pyround: 117
-[earth:blue] 117,	
-[earth:blue] 2,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 43,	
-[earth:blue] 
+[earth:blue] 117,2,5,38,43
 [earth:blue] 
 [mars:red] pyround: 117
-[mars:blue] 117,	
-[mars:blue] 2,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 117,2,0,0,0
 [mars:blue] 
 [earth:red] pyround: 118
-[earth:blue] 118,	
-[earth:blue] 12,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 43,	
-[earth:blue] 
+[earth:blue] 118,12,5,38,43
 [earth:blue] 
 [mars:red] pyround: 118
-[mars:blue] 118,	
-[mars:blue] 12,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 118,12,0,0,0
 [mars:blue] 
 [earth:red] pyround: 119
-[earth:blue] 119,	
-[earth:blue] 22,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 43,	
-[earth:blue] 
+[earth:blue] 119,22,5,38,43
 [earth:blue] 
 [mars:red] pyround: 119
-[mars:blue] 119,	
-[mars:blue] 22,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 119,22,0,0,0
 [mars:blue] 
 [earth:red] pyround: 120
-[earth:blue] 120,	
-[earth:blue] 32,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 43,	
-[earth:blue] 
+[earth:blue] 120,32,5,38,43
 [earth:blue] 
 [mars:red] pyround: 120
-[mars:blue] 120,	
-[mars:blue] 32,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 120,32,0,0,0
 [mars:blue] 
 [earth:red] pyround: 121
-[earth:blue] 121,	
-[earth:blue] 42,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 43,	
-[earth:blue] 
+[earth:blue] 121,42,5,38,43
 [earth:blue] 
 [mars:red] pyround: 121
-[mars:blue] 121,	
-[mars:blue] 42,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 0,	
-[mars:blue] 
+[mars:blue] 121,42,0,0,0
 [mars:blue] 
 [earth:red] pyround: 122
-[earth:blue] 122,	
-[earth:blue] 31,	
-[earth:blue] 5,	
-[earth:blue] 38,	
-[earth:blue] 44,	
-[earth:blue] 
+[earth:blue] 122,31,5,38,44
 [earth:blue] 
 Killing game server.
-Dumping matchfile to /home/paul/code/git/battlecode/battlecode2018/replays/replay_0.bc18
+Dumping matchfile to /home/paul/code/git/battlecode/battlecode2018/replays/replay_11.bc18
 Cleaning up Docker and Socket...
-Killing  7575
-[earth:red]process 7575 terminated with exit code None 
-Terminated
-Killing  7573
-Killing  7579
+Killing  12820
+[earth:red] Terminated
+process 12820 terminated with exit code None
+Killing  12819
+Killing  12824
 [earth:blue] Terminated
-process 7579 terminated with exit code None
-Killing  7578
-Killing  7583
-[mars:red]process 7583 terminated with exit code None Terminated
-
-Killing  7582
-Killing  7588
+process 12824 terminated with exit code None
+Killing  12823
+Killing  12828
+[mars:red] Terminated
+process 12828 terminated with exit code None
+Killing  12827
+Killing  12833
 [mars:blue] Terminated
-process 7588 terminated with exit code None
-Killing  7586
+process 12833 terminated with exit code None
+Killing  12831
 Ready to run next game.
 Winner is player: 2
