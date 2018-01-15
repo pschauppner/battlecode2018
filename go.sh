@@ -16,14 +16,20 @@ cp -R player1/ ../bc18-scaffold/
 #   run match
 echo "running match, output to logs/rawOutput.txt"
 echo "temporarily moving to scaffold directory"
-cd ../bc18-scaffold
-#./battlecode.sh -p1 player1 -p2 examplefuncsplayer-python -m socket.bc18map --replay-dir ../battlecode2018/replays > ../battlecode2018/logs/rawOutput.txt
-./battlecode.sh -p1 player1 -p2 player1 -m socket --replay-dir ../battlecode2018/replays > ../battlecode2018/logs/rawOutput.txt
+input="inputParams.txt"
+while read -r line
+do
+    cd ../bc18-scaffold
+    echo "using parameters: $line"
+    echo "$line" > player1/params.txt
+    #./battlecode.sh -p1 player1 -p2 examplefuncsplayer-python -m socket --replay-dir ../battlecode2018/replays > ../battlecode2018/logs/rawOutput.txt
+    ./battlecode.sh -p1 player1 -p2 basicAttackPlayer -m socket --replay-dir ../battlecode2018/replays > ../battlecode2018/logs/rawOutput.txt
 
-cd ../battlecode2018
-echo "match is over, back home, parsing match output"
+    cd ../battlecode2018
+    #echo "match is over, back home, parsing match output"
 
-#   run parser to create csvs
-python3 parseMatchOutput.py
+    #   run parser to create csvs
+    python3 parseMatchOutput.py
+done <"$input"
 
 echo "End of match automation script."
