@@ -6,6 +6,13 @@ import os
 
 LOW_WORKER_THRESHOLD = 10
 
+def tryMove3(gc,unitID,dir):
+    if dir == bc.Direction.Center or gc.can_move(unitID,dir):
+        return dir
+    if gc.can_move(unitID,dir.rotate_left()):
+        return dir.rotate_left()
+    return dir.rotate_right()
+
 print("pystarting")
 
 # A GameController is the main type that you talk to the game with.
@@ -106,6 +113,7 @@ while True:
                     d = worker.location.map_location().direction_to(neighbor.location.map_location())
                     shouldMove = True
                     break
+            d = tryMove3(gc,worker.id,d)
             if shouldMove and gc.is_move_ready(worker.id) and gc.can_move(worker.id, d):
                 gc.move_robot(worker.id, d)
 
@@ -152,11 +160,12 @@ while True:
                 elif myLoc.distance_squared_to(enemyLoc) < closestEnemy[1]:
                     closestEnemy = [enemy,myLoc.distance_squared_to(enemyLoc)]
                     targetDir = myLoc.direction_to(enemyLoc)
+            targetDir = tryMove3(gc,knight.id,targetDir)
             if not meleed and closestEnemy[1] != None:
                 if gc.is_move_ready(knight.id) and gc.can_move(knight.id, targetDir):
                     gc.move_robot(knight.id, targetDir)
             elif not meleed and closestEnemy[1] == None:
-                d = random.choice(directions)
+                d = tryMove3(gc,knight.id,random.choice(directions))
                 if gc.is_move_ready(knight.id) and gc.can_move(knight.id, d):
                     gc.move_robot(knight.id, d)
             if not meleed and closestEnemy[1] != None and gc.can_attack(knight.id,closestEnemy[0].id) and gc.is_attack_ready(knight.id):
@@ -180,7 +189,6 @@ while True:
     # it forces everything we've written this turn to be written to the manager.
     sys.stdout.flush()
     sys.stderr.flush()
-
 
 # while True:
 #     # We only support Python 3, which means brackets around print()

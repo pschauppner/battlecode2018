@@ -53,6 +53,7 @@ while(os.path.isfile(logPath)):
     logIndex += 1
     logName = '{:03d}_redEarth.csv'.format(logIndex)
     logPath = os.path.join(logDir,logName)
+print('generating CSVs at index: {:03d}'.format(logIndex))
 with open(logPath,'a+') as fout:
     for l in redEarthLog:
         fout.write(l + '\n')
