@@ -4,21 +4,21 @@ import sys
 import traceback
 import os
 
-PARAM_TEXT = '1000,1000,1000'    #initialize to default parameters
+PARAM_TEXT = '1,1000,1,1'    #initialize to default parameters
 try:
     with open('params.txt','r') as fin:
         PARAM_TEXT = fin.readline()
 except:
     pass
-FACTORY_CAP,ROBOT_CAP,KNIGHT_RATIO = PARAM_TEXT.split(',')
+FACTORY_CAP,WORKER_TGT,LOW_WORKER_THRESHOLD,KNIGHT_MULT = PARAM_TEXT.split(',')
 FACTORY_CAP = int(FACTORY_CAP)
-ROBOT_CAP = int(ROBOT_CAP)
-KNIGHT_RATIO = float(KNIGHT_RATIO)
+WORKER_TGT = int(WORKER_TGT)
+LOW_WORKER_THRESHOLD = int(LOW_WORKER_THRESHOLD)
+KNIGHT_MULT = float(KNIGHT_MULT)
 print('FACTORY_CAP=' + str(FACTORY_CAP))
-print("ROBOT_CAP =" + str(ROBOT_CAP))
-print('KNIGHT_RATIO=' + str(KNIGHT_RATIO))
-LOW_WORKER_THRESHOLD = 10
-REPLICATE_FIRST = True
+print("WORKER_TGT =" + str(WORKER_TGT))
+print('LOW_WORKER_THRESHOLD =' + str(LOW_WORKER_THRESHOLD))
+print('KNIGHT_MULT=' + str(KNIGHT_MULT))
 
 def tryMove3(gc,unitID,dir):
     if dir == bc.Direction.Center or gc.can_move(unitID,dir):
@@ -69,12 +69,19 @@ while True:
                     if gc.can_unload(factory.id,d):
                         gc.unload(factory.id,d)
                         break
-            if totalRobotsOnTeam < ROBOT_CAP:
+
+            nextRobotType = bc.UnitType.Worker
+            shouldProduceRobot = True
+            if len(workers) < LOW_WORKER_THRESHOLD:
+                pass
+            elif len(knights) < WORKER_TGT * KNIGHT_MULT:
+                nextRobotType = bc.UnitType.Knight
+            elif len(workers) < WORKER_TGT:
                 nextRobotType = bc.UnitType.Worker
-                if len(knights) < ROBOT_CAP * KNIGHT_RATIO:
-                    nextRobotType = bc.UnitType.Knight
-                if gc.can_produce_robot(factory.id, nextRobotType):
-                    gc.produce_robot(factory.id, nextRobotType)
+            else:
+                shouldProduceRobot = False
+            if shouldProduceRobot and gc.can_produce_robot(factory.id, nextRobotType):
+                gc.produce_robot(factory.id, nextRobotType)
 
         # loop through workers
         for worker in workers:
@@ -90,7 +97,7 @@ while True:
                 # repair
                 # replicate - if you can, do it in the first free direction
 
-            # Harvest - if you can harvest, do it in the first free direction
+            # Harvest - if you can harvest, do it in the first free direction and set a don't move flag
             for d in directions:
                 if gc.can_harvest(worker.id, d):
                     gc.harvest(worker.id, d)
@@ -99,10 +106,12 @@ while True:
                 else:
                     hasKarbon = False
 
-            #Replicate - if you can, do it in the first free direction
-            if gc.karbonite() < 130 and len(factories) < FACTORY_CAP:
+            #Replicate - if you are < workerTGT and can, do it in the first free direction
+            #dont replicate if you need to save resources for a factory
+            savingsGoal = bc.UnitType.Factory.blueprint_cost() + bc.UnitType.Worker.replicate_cost()
+            if len(factories) < FACTORY_CAP and gc.karbonite() < savingsGoal:
                 pass
-            elif len(workers) < ROBOT_CAP * (1 - KNIGHT_RATIO):
+            elif len(workers) < WORKER_TGT:
                 for d in directions:
                     # if replicate heat too high, or resources too low, break
                     if gc.can_replicate(worker.id, d):
@@ -124,21 +133,27 @@ while True:
                 elif gc.can_repair(worker.id, neighbor.id):
                     gc.repair(worker.id, neighbor.id)
             #move - if blueprinted in range, build. if factory < 50% -> repair, else move towards resources
-            neighbors = gc.sense_nearby_units_by_team(worker.location.map_location(),50,my_team)
+            neighbors = gc.sense_nearby_units_by_team(worker.location.map_location(),worker.vision_range,my_team)
             d =  random.choice(directions)
             shouldMove = not hasKarbon
             for neighbor in neighbors:
-                if gc.can_build(worker.id,neighbor.id):
-                    d = worker.location.map_location().direction_to(neighbor.location.map_location())
-                    shouldMove = True
-                    break
-                elif neighbor.health < 150:
+                if neighbor.unit_type not in [bc.UnitType.Factory, bc.UnitType.Rocket]:
+                    continue
+                if neighbor.health < neighbor.max_health:
                     d = worker.location.map_location().direction_to(neighbor.location.map_location())
                     shouldMove = True
                     break
             d = tryMove3(gc,worker.id,d)
             if shouldMove and gc.is_move_ready(worker.id) and gc.can_move(worker.id, d):
                 gc.move_robot(worker.id, d)
+
+            #after moving, try to build/repair again
+            neighbors = gc.sense_nearby_units_by_team(worker.location.map_location(), 2, my_team)
+            for neighbor in neighbors:
+                if gc.can_build(worker.id, neighbor.id):
+                    gc.build(worker.id, neighbor.id)
+                elif gc.can_repair(worker.id, neighbor.id):
+                    gc.repair(worker.id, neighbor.id)
 
             temp = gc.sense_nearby_units(worker.location.map_location(),50)
             enemies = [x for x in temp if x.team != my_team]
